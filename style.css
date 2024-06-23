@@ -1,0 +1,26 @@
+body{
+    background-color: #222;
+    color: white;
+}
+button{
+    border-radius: 1000px;
+    width: 100px;
+}
+.a_foco{
+    color: white;
+}
+.a_foco:active{
+    color: white;
+}
+.foco{
+    font-size: 2rem;
+    transition: .3s;
+}
+.foco:hover{
+    text-shadow: 0 0 10px white;
+    font-size: 2.2rem;
+}
+textarea{
+    width: 100%;
+    height: 50vh;
+}
